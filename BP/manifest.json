@@ -1,0 +1,50 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": ["ScorchedDuck740"],
+		"generated_with": {
+			"bridge": ["2.7.35"],
+			"dash": ["0.11.7"],
+			"blockbench_item_wizard": ["1.1.0"]
+		}
+	},
+	"header": {
+		"name": "Potions SMP",
+		"description": "for potions world",
+		"min_engine_version": [1, 21, 0],
+		"uuid": "91109167-0b5a-4a11-b28f-5c0396d12109",
+		"version": [1, 0, 0]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "f4632c87-364c-409a-8503-eef2bce2c4b1",
+			"version": [1, 0, 0]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "e5ecb514-048b-4c4c-a774-31b836c1d1c4",
+			"entry": "scripts/main.js",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "b3f43508-b07f-46a9-9fa3-379737006c30",
+			"version": [1, 0, 0]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-gametest",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.0.0-beta"
+		}
+	]
+}

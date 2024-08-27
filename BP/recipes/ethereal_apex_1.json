@@ -1,0 +1,30 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "potions:ethereal_apex"
+		},
+		"tags": [],
+		"pattern": [
+			"ABA",
+			"BCB",
+			"ABA"
+		],
+		"key": {
+			"B": {
+				"item": "minecraft:totem_of_undying"
+			},
+			"A": {
+				"item": "minecraft:glowstone_dust"
+			},
+			"C": {
+				"item": "minecraft:netherite_scrap"
+			}
+		},
+		"result": [
+			{
+				"item": "potions:ethereal_apex"
+			}
+		]
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.ethereal_apex",
+				"texture_width": 1280,
+				"texture_height": 1280,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root_item",
+					"pivot": [0, 0, 0],
+					"binding": "q.item_slot_to_bone_name(c.item_slot)",
+					"cubes": [
+						{
+							"origin": [-8, 0, 0],
+							"size": [16, 16, 2],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [1280, 1280]},
+								"east": {"uv": [291, 376], "uv_size": [2, 16]},
+								"south": {"uv": [0, 0], "uv_size": [1280, 1280]},
+								"west": {"uv": [1108, 349], "uv_size": [91, 96]},
+								"up": {"uv": [1097, 385], "uv_size": [16, 2]},
+								"down": {"uv": [1146, 366], "uv_size": [16, -2]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

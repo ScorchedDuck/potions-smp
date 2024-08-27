@@ -1,0 +1,12 @@
+{
+	"texture_data": {
+		"ethereal_apex": {
+			"textures": "textures/items/ethereal_apex.png"
+		},
+		"potions_ethereal_apex": {
+			"textures": "textures/items/ethereal_apex"
+		}
+	},
+	"resource_pack_name": "Potions SMP",
+	"texture_name": "atlas.items"
+}

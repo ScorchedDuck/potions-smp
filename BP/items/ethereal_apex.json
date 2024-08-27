@@ -1,0 +1,16 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "potions:ethereal_apex",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:icon": "potions_ethereal_apex",
+			"minecraft:allow_off_hand": true,
+			"minecraft:glint": true
+		}
+	}
+}

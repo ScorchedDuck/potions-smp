@@ -1,0 +1,43 @@
+{
+	"type": "minecraftBedrock",
+	"name": "Potions SMP",
+	"namespace": "potions",
+	"authors": [
+		"ScorchedDuck740"
+	],
+	"targetVersion": "1.21.20",
+	"description": "for potions world",
+	"experimentalGameplay": {
+		"creationOfCustomBiomes": true,
+		"upcomingCreatorFeatures": true,
+		"enableGameTestFramework": true,
+		"educationEdition": true
+	},
+	"bdsProject": false,
+	"packs": {
+		"behaviorPack": "./BP",
+		"resourcePack": "./RP"
+	},
+	"worlds": [
+		"./worlds/*"
+	],
+	"compiler": {
+		"plugins": [
+			"generatorScripts",
+			"typeScript",
+			"entityIdentifierAlias",
+			"customEntityComponents",
+			"customItemComponents",
+			"customBlockComponents",
+			"customCommands",
+			"moLang",
+			"formatVersionCorrection",
+			[
+				"simpleRewrite",
+				{
+					"packName": "Potions SMP"
+				}
+			]
+		]
+	}
+}

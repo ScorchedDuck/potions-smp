@@ -1,0 +1,22 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "potions:ethereal_apex",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "ethereal_apex"
+			},
+			"minecraft:glint": true,
+			"minecraft:wearable": {
+				"slot": "slot.weapon.offhand",
+				"protection": 0
+			}
+		}
+	}
+}
